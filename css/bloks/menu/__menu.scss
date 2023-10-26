@@ -1,0 +1,18 @@
+.products {
+	// .products__categories
+
+	&__categories {
+		margin: 7.5vw 0vw 2.5vw 0vw;
+	}
+}
+.categories {
+	display: flex;
+	gap: 2rem;
+	&__li {
+		font-size: 1.25rem;
+		color: rgba(255, 255, 255, 0.6);
+	}
+	&__li.active-category {
+		color: $title-color;
+	}
+}
