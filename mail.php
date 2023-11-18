@@ -16,13 +16,13 @@ $mail->SMTPDebug = 3;
 $mail->isSMTP();                                      
 $mail->Host = 'smtp.mail.ru';  									
 $mail->SMTPAuth = true;                    
-$mail->Username = 'smakotina.natasha@mail.ru';
-$mail->Password = 'GFA3L5S1ahLB30iRwqsF'; 
+$mail->Username = 'my mail';
+$mail->Password = 'mail passwordF'; 
 $mail->SMTPSecure = 'ssl';               
 $mail->Port = 465;
 
-$mail->setFrom('smakotina.natasha@mail.ru', 'COFFEE SITE'); 
-$mail->addAddress('smakotina.natasha@mail.ru');       
+$mail->setFrom('my mail', 'COFFEE SITE'); 
+$mail->addAddress('your`s mail');       
 $mail->isHTML(true);
 $mail->Subject = 'Заявка с сайта Coffee';
 //проверяем поля формы
